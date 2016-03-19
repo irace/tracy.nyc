@@ -23,19 +23,23 @@
       body {
         height: 100%;
         text-align: center;
-        background-color: #232323;
-        font-family: 'Avenir-Light', sans-serif;
-      }
 
-      .header {
-        height: 400px;
-        width: 100%;
+        font-family: 'Avenir-Light', sans-serif;
+
         background: url(images/header.jpg);
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        /*background-position: 50% 75%;*/
+      }
+
+      .header {
+        height: 400px;
+      }
+
+      .content {
+        background-color: #ECEBEB;
+        padding: 75px 0 75px 0;
       }
 
       .header .text-container {
@@ -47,8 +51,8 @@
         line-height: 100px;
         margin: -50px auto 0 auto;
 
-        border: 1px solid black;
-        background-color: rgba(255, 255, 255, .8);
+        border: 2px solid #444444;
+        background-color: rgba(255, 255, 255, .9);
 
         color: #232323;
         text-transform: uppercase;
@@ -56,21 +60,23 @@
       }
 
       .bio {
-        color: white;
+        color: #585757;
         font-size: 25px;
-        margin: 75px 0 75px 0;
         font-family: "museo-slab", serif;
+        margin-bottom: 75px;
       }
 
       .button {
+        color: #98ceec;
         display: inline-block;
-        border: 1px solid black;
-        background-color: rgba(255, 255, 255, .8);
+        border: 2px solid black;
+        background-color: #444444;
         padding: 20px 0 20px 0;
         text-transform: uppercase;
         width: 100%;
         font-size: 20px;
         font-weight: bold;
+        letter-spacing: 1px;
       }
     </style>
 
@@ -79,20 +85,20 @@
   </head>
 
   <body>
-    <div class="header" id="header">
+    <div class="header">
       <div class="text-container">
         <p class="text-center">Tracy Dalick Irace</p>
       </div>
     </div>
+
+    <div class="content">
 
     <div class="container">
 
       <div class="row">
         <div class="col-md-8 col-md-offset-2 col-sm-12">
           <div class="bio">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et leo leo. Vestibulum rutrum justo sit amet elit tincidunt, sit amet consequat sapien dictum. Vivamus ullamcorper lectus ut quam euismod pretium. Pellentesque quam sem, placerat non imperdiet in, finibus eu lorem. Integer vel vestibulum neque, ut dictum sem. Aliquam consequat libero sapien, non mollis nisl elementum ac. Curabitur est justo, dapibus non fringilla at, convallis vitae massa. Cras elit mauris, scelerisque sodales blandit a, tincidunt ut libero.</p>
-
-            <p>Aenean a rutrum diam, blandit gravida erat. Donec rutrum ante sem, vel euismod leo molestie vel. Curabitur a enim felis. Pellentesque id porta arcu. Sed maximus lacus eget nulla luctus pulvinar.</p>
+            <p><strong>Tracy is a product manager who lives and works in Brooklyn, NY.</strong> Vestibulum rutrum justo sit amet elit tincidunt, sit amet consequat sapien dictum. Vivamus ullamcorper lectus ut quam euismod pretium. Pellentesque quam sem, placerat non imperdiet in, finibus eu lorem. Integer vel vestibulum neque, ut dictum sem.</p>
           </div>
         </div>
       </div>
@@ -108,6 +114,10 @@
 
 
     </div>
+
+  </div>
+
+
 
   </body>
 </html>

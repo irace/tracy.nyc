@@ -1,0 +1,14 @@
+# Setup
+title: Tracy Dalick Irace
+url: https://tracy.nyc
+
+author:
+  name: Tracy Dalick Irace
+  email: tdalick@gmail.com
+
+sass:
+  # Where you keep your scss files
+  sass_dir: .
+  # Where SASS should look for other SCSS
+  load_paths:
+    - node_modules/

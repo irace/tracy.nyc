@@ -5,12 +5,12 @@
 @import "node_modules/tachyons-sass/tachyons.scss";
 
 .resume {
-  .yellowtail {
-    font-family: "Yellowtail", cursive;
+  .raleway {
+    font-family: "Raleway", sans-serif;
   }
 
   a:not(.unstyled) {
-    @extend .link, .dim, .green;
+    @extend .link, .dim, .light-purple;
   }
 
   .copy {

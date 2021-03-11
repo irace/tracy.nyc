@@ -1847,7 +1847,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .purple { color: #5e2ca5; }
 
-.light-purple { color: #a463f2; }
+.light-purple, .resume a:not(.unstyled) { color: #a463f2; }
 
 .dark-pink { color: #d5008f; }
 
@@ -1859,7 +1859,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .dark-green { color: #137752; }
 
-.green, .resume a:not(.unstyled) { color: #19a974; }
+.green { color: #19a974; }
 
 .light-green { color: #9eebcf; }
 
@@ -3362,6 +3362,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
  Add custom styles here.
 
 */
-.resume .yellowtail { font-family: "Yellowtail", cursive; }
+.resume .raleway { font-family: "Raleway", sans-serif; }
 .resume .logo { width: 30px; }
 .resume .thumbnails .thumbnail a { display: block; }

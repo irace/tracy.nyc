@@ -3169,7 +3169,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /* Equivalent to .overflow-y-scroll */
 .overflow-container { overflow-y: scroll; }
 
-.center, .resume .thumbnails { margin-right: auto; margin-left: auto; }
+.center, .twitter-tweet, .resume .thumbnails { margin-right: auto; margin-left: auto; }
 
 .mr-auto { margin-right: auto; }
 

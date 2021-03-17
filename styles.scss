@@ -4,6 +4,10 @@
 
 @import "node_modules/tachyons-sass/tachyons.scss";
 
+body {
+  background-color: black;
+}
+
 .twitter-tweet {
   @extend .center;
 }

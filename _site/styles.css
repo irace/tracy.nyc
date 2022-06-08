@@ -3169,7 +3169,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /* Equivalent to .overflow-y-scroll */
 .overflow-container { overflow-y: scroll; }
 
-.center, .twitter-tweet, .resume .thumbnails { margin-right: auto; margin-left: auto; }
+.center, .resume .thumbnails { margin-right: auto; margin-left: auto; }
 
 .mr-auto { margin-right: auto; }
 
@@ -3362,8 +3362,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
  Add custom styles here.
 
 */
-body { background-color: black; }
-
 .resume .raleway { font-family: "Raleway", sans-serif; }
 .resume .logo { width: 30px; }
 .resume .thumbnails .thumbnail a { display: block; }

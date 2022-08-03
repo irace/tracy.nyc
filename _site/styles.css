@@ -3365,5 +3365,5 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .resume .raleway { font-family: "Raleway", sans-serif; }
 .resume .logo { width: 30px; }
 .resume .thumbnails .thumbnail a { display: block; }
-@media print { .resume .thumbnails { display: none; }
+@media print { .resume .thumbnails, .resume .post-thumbnails-spacer { display: none; }
   .resume .page-break { page-break-before: always; } }

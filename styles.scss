@@ -52,7 +52,7 @@
   }
 
   @media print {
-    .thumbnails {
+    .thumbnails, .post-thumbnails-spacer {
       display: none;
     }
 

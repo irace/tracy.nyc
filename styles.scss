@@ -50,4 +50,14 @@
       }
     }
   }
+
+  @media print {
+    .thumbnails {
+      display: none;
+    }
+
+    .page-break {
+      page-break-before: always;
+    }
+  }
 }

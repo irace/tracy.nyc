@@ -3365,3 +3365,5 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .resume .raleway { font-family: "Raleway", sans-serif; }
 .resume .logo { width: 30px; }
 .resume .thumbnails .thumbnail a { display: block; }
+@media print { .resume .thumbnails { display: none; }
+  .resume .page-break { page-break-before: always; } }

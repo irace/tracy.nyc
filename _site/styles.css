@@ -1847,7 +1847,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .purple { color: #5e2ca5; }
 
-.light-purple, .resume a:not(.unstyled) { color: #a463f2; }
+.light-purple { color: #a463f2; }
 
 .dark-pink { color: #d5008f; }
 
@@ -1859,7 +1859,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .dark-green { color: #137752; }
 
-.green { color: #19a974; }
+.green, .resume a:not(.unstyled) { color: #19a974; }
 
 .light-green { color: #9eebcf; }
 
